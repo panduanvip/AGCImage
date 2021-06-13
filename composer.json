@@ -1,0 +1,30 @@
+{
+    "name": "panduanvip/agc-image",
+    "description": "AGC Image Library",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "homepage": "https://panduan.vip",
+
+    "authors": [
+        {
+            "name": "Yoyon Sugiono",
+            "email": "yoyonsugiono@gmail.com",
+            "homepage": "https://panduan.vip",
+            "role": "developer"
+        }
+    ],
+    
+    "require": {
+        "panduanvip/google-image": "^1.0",
+        "panduanvip/petal-image": "^1.0",
+        "panduanvip/yahoo-image": "^1.0",
+        "panduanvip/bing-image": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "PanduanVIP\\AGC\\": "src/"
+        }
+    }    
+}

@@ -1,0 +1,257 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "831510c46d34f50e40f5bbe9ba1e68f4",
+    "packages": [
+        {
+            "name": "panduanvip/bing-image",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/BingImage.git",
+                "reference": "3a4989de047a07b985d573c07cd3587e4d45f4a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/BingImage/zipball/3a4989de047a07b985d573c07cd3587e4d45f4a1",
+                "reference": "3a4989de047a07b985d573c07cd3587e4d45f4a1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PanduanVIP\\WebExtractor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yoyon Sugiono",
+                    "email": "yoyonsugiono@gmail.com",
+                    "homepage": "https://panduan.vip",
+                    "role": "developer"
+                }
+            ],
+            "description": "Bing Image Extractor",
+            "homepage": "https://github.com/panduanvip/BingImage",
+            "keywords": [
+                "AGC Image",
+                "Bing Image",
+                "HTML Extractor",
+                "Web Extractor",
+                "data extractor",
+                "web scraping"
+            ],
+            "support": {
+                "issues": "https://github.com/panduanvip/BingImage/issues",
+                "source": "https://github.com/panduanvip/BingImage/tree/1.0.0"
+            },
+            "time": "2021-06-11T19:44:43+00:00"
+        },
+        {
+            "name": "panduanvip/google-image",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/GoogleImage.git",
+                "reference": "cc88ddd277a2b6d7a3beb4e93f6ce25c5938a2af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/GoogleImage/zipball/cc88ddd277a2b6d7a3beb4e93f6ce25c5938a2af",
+                "reference": "cc88ddd277a2b6d7a3beb4e93f6ce25c5938a2af",
+                "shasum": ""
+            },
+            "require": {
+                "panduanvip/ronolo-json-extract": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PanduanVIP\\WebExtractor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yoyon Sugiono",
+                    "email": "yoyonsugiono@gmail.com",
+                    "homepage": "https://panduan.vip",
+                    "role": "developer"
+                }
+            ],
+            "description": "Google Image Extractor",
+            "homepage": "https://panduan.vip",
+            "keywords": [
+                "Google Image",
+                "HTML Extractor",
+                "Web Extractor",
+                "data extractor",
+                "web scraping"
+            ],
+            "support": {
+                "issues": "https://github.com/panduanvip/GoogleImage/issues",
+                "source": "https://github.com/panduanvip/GoogleImage/tree/1.0.0"
+            },
+            "time": "2021-06-13T19:14:31+00:00"
+        },
+        {
+            "name": "panduanvip/petal-image",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/PetalImage.git",
+                "reference": "bceb0e9053714393b3bf66075f8b1a548aa9d80a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/PetalImage/zipball/bceb0e9053714393b3bf66075f8b1a548aa9d80a",
+                "reference": "bceb0e9053714393b3bf66075f8b1a548aa9d80a",
+                "shasum": ""
+            },
+            "require": {
+                "panduanvip/ronolo-json-extract": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PanduanVIP\\WebExtractor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yoyon Sugiono",
+                    "email": "yoyonsugiono@gmail.com",
+                    "homepage": "https://panduan.vip",
+                    "role": "developer"
+                }
+            ],
+            "description": "Petal Image Extractor",
+            "homepage": "https://panduan.vip",
+            "keywords": [
+                "HTML Extractor",
+                "Petal Image",
+                "Web Extractor",
+                "data extractor",
+                "web scraping"
+            ],
+            "support": {
+                "issues": "https://github.com/panduanvip/PetalImage/issues",
+                "source": "https://github.com/panduanvip/PetalImage/tree/1.0.0"
+            },
+            "time": "2021-06-13T20:08:50+00:00"
+        },
+        {
+            "name": "panduanvip/ronolo-json-extract",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/json-extract.git",
+                "reference": "3848b208b7be889f255de09673b5f67a7868f204"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/json-extract/zipball/3848b208b7be889f255de09673b5f67a7868f204",
+                "reference": "3848b208b7be889f255de09673b5f67a7868f204",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">= 7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RoNoLo\\JsonExtractor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ronald Locke"
+                }
+            ],
+            "description": "Extracts JSON from strings and returns PHP arrays.",
+            "homepage": "https://github.com/panduanvip/json-extract",
+            "support": {
+                "source": "https://github.com/panduanvip/json-extract/tree/1.2.1"
+            },
+            "time": "2021-05-16T15:48:59+00:00"
+        },
+        {
+            "name": "panduanvip/yahoo-image",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/YahooImage.git",
+                "reference": "77283f08eb9c47b1b3d3658795cf47fe56918305"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/YahooImage/zipball/77283f08eb9c47b1b3d3658795cf47fe56918305",
+                "reference": "77283f08eb9c47b1b3d3658795cf47fe56918305",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PanduanVIP\\WebExtractor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yoyon Sugiono",
+                    "email": "yoyonsugiono@gmail.com",
+                    "homepage": "https://panduan.vip",
+                    "role": "developer"
+                }
+            ],
+            "description": "Yahoo Image Extractor",
+            "homepage": "https://panduan.vip",
+            "keywords": [
+                "HTML Extractor",
+                "Web Extractor",
+                "Yahoo Image",
+                "data extractor",
+                "web scraping"
+            ],
+            "support": {
+                "issues": "https://github.com/panduanvip/YahooImage/issues",
+                "source": "https://github.com/panduanvip/YahooImage/tree/1.0.0"
+            },
+            "time": "2021-06-13T19:50:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
