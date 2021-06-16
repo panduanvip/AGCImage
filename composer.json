@@ -1,6 +1,7 @@
 {
     "name": "panduanvip/agc-image",
     "description": "AGC Image Library",
+    "keywords": ["Web Extractor", "HTML Extractor", "Data Extractor", "Petal Image", "Yahoo Image", "Google Image", "Bing Image", "AGC Image", "Web Scraping"],
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
